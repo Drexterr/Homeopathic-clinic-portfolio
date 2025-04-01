@@ -20,7 +20,7 @@ const Navbar = () => {
         <nav>
           <ul className="flex-row hidden md:flex items-center text-center justify-center font-serif p-6">
             <li className='hover:text-gray-500  px-10 py-5'>
-              <NavLink exact to="/Home">Home</NavLink>
+              <NavLink exact to="/">Home</NavLink>
             </li>
             <li className='hover:text-gray-500 px-10 cursor-pointer py-5'>
               <NavLink to="/home#why-homeopathy">Why Homeopathy?</NavLink>
